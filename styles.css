@@ -1,0 +1,184 @@
+body {
+  background-color: burlywood;
+  margin: 0%;
+  background-image: url("../mad.jpg");
+  font-family: roboto;
+}
+
+.chivo {
+  color: rgb(116, 128, 10);
+}
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: rgba(3, 88, 14, 0.425);
+  font-size: 100px;
+  border: 15px solid rgb(0, 17, 24);
+  border-radius: 30px;
+  width: 550px;
+  margin-bottom: 20px;
+  margin-left: 510px;
+  transition: background-color 1s;
+  color: 3s;
+  margin-top: 150px;
+  font-family: cursive;
+}
+#About {
+  padding-top: 400px;
+}
+#About strong {
+  margin-left: 650px;
+  font-size: 50px;
+  background-color: rgba(3, 88, 14, 0.425);
+  border: solid rgb(0, 17, 24);
+  transition: background-color 1s;
+}
+#About strong:hover {
+  background-color: rgba(0, 51, 31, 0.425);
+  color: white;
+}
+
+.chivo {
+  height: auto;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#Work strong {
+  margin-left: 650px;
+  font-size: 50px;
+  background-color: rgba(3, 88, 14, 0.425);
+  border: solid rgb(0, 17, 24);
+  transition: background-color 1s;
+}
+#Work strong:hover {
+  background-color: rgba(0, 51, 31, 0.425);
+  color: white;
+}
+#Home,
+.dieko {
+  padding-left: 0px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 300px;
+
+  text-align: center;
+}
+#Home {
+  height: 400px;
+  width: 600px;
+}
+#Home strong {
+  margin-left: 320px;
+  font-size: 50px;
+  background-color: rgba(3, 88, 14, 0.425);
+  border: solid rgb(0, 17, 24);
+  transition: background-color 1s;
+}
+#Home strong:hover {
+  background-color: rgba(0, 51, 31, 0.425);
+  color: white;
+}
+
+#Resume strong {
+  margin-left: 615px;
+  font-size: 50px;
+  background-color: rgba(3, 88, 14, 0.425);
+  border: solid rgb(0, 17, 24);
+  transition: background-color 1s;
+}
+#Resume strong:hover {
+  background-color: rgba(0, 51, 31, 0.425);
+  color: white;
+}
+.sourcee {
+  width: 700px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 390px;
+}
+p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 20px;
+}
+footer {
+  color: turquoise;
+}
+h1:hover {
+  background-color: rgba(0, 51, 31, 0.425);
+  color: white;
+}
+input {
+  width: 200px;
+  height: 30px;
+}
+input:focus {
+  background-color: rgba(255, 255, 255, 0.521);
+}
+button {
+  font-weight: 700;
+  transition: background-color 1s;
+  color: 3s;
+  height: 30px;
+}
+button:hover {
+  background-color: burlywood;
+  color: rgb(0, 0, 0);
+}
+/* ul {
+  display: inline;
+  background-color: rgb(56, 0, 0); */
+/* padding: 20px 30px;
+  margin-left: 10px;
+} */
+.container {
+  display: flex;
+  list-style-type: none;
+  border: rgb(10, 2, 0) solid;
+  background-color: rgba(3, 88, 14, 0.425);
+  position: fixed;
+  margin-bottom: 150px;
+  width: 100%;
+  font-size: 25px;
+  top: 0;
+  justify-content: initial;
+  height: 70px;
+  color: black;
+  transition: background-color 1s;
+  /* z-index: 100; */
+  padding: auto;
+  padding-top: 15px;
+  margin-top: -5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container:hover {
+  background-color: rgba(21, 22, 51, 0.425);
+}
+.container > li a {
+  flex: 1;
+  text-decoration: rgb(143, 81, 122);
+  display: flex;
+  margin-left: 190px;
+  border-style: outset;
+  transition: background-color 1s;
+  border-style: outset black;
+  border-radius: 200px;
+  border-width: 10px;
+}
+
+li a:hover {
+  background-color: rgb(207, 59, 0);
+  color: rgb(0, 0, 0);
+}
+#Home .omo {
+  border-radius: 200px;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 270px;
+}
+iframe {
+  margin-left: 450px;
+}
